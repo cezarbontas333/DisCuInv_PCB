@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PSC3M5_E-LQFP-64")(type "KiCad")(uri "${KIPRJMOD}/res/PSOC Control C3/Altium/E-LQFP-64/PSC3M5_E-LQFP-64.kicad_sym")(options "")(descr ""))
+  (lib (name "IFX007T")(type "KiCad")(uri "${KIPRJMOD}/res/Infineon-PCB Footprints and Symbols - IFX007T - Single Half-Bridge ICs - Altium-PCBDesignData-v01_00-EN/IFX007T.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD12VD3B_TP")(type "KiCad")(uri "${KIPRJMOD}/res/ESD12VD3B_TP/KiCADv6/2025-03-12_12-51-13.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-03-13_20-30-41")(type "KiCad")(uri "${KIPRJMOD}/res/AZ1117CR2-3.3TRG1/KiCADv6/2025-03-13_20-30-41.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-FLEX (rev24a)")(type "KiCad")(uri "${KIPRJMOD}/res/WE_749196521_Libraries/WE-FLEX (rev24a).kicad_sym")(options "")(descr ""))
+)
