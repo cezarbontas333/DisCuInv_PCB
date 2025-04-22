@@ -1,0 +1,351 @@
+(footprint "691214110003S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 2141S - 3.50 mm Horizontal Entry Modular w. Rising Cage Clamp\nMax Height =9.1mm , Pitch 3.5mm , 2 Pins")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "351be40b-900b-4bf8-8172-aa04b045702c")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691214110003S"
+		(at -3.5 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2613b42-aa5c-4abe-821f-89aaa85304e8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9496e668-c30a-4437-8125-747bfd544934")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe2dda36-2329-4265-9ec1-b0dfc1e7a38f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.35 -3.9)
+		(end 5.35 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7edf6340-103e-4159-91ae-41d28bb7f9ff")
+	)
+	(fp_line
+		(start -5.35 3.6)
+		(end -5.35 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8ac0450-335d-4861-900c-2db0ccfcd91b")
+	)
+	(fp_line
+		(start 5.35 -3.9)
+		(end 5.35 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbb02121-b1f3-404a-811e-2de56cf124d0")
+	)
+	(fp_line
+		(start 5.35 -3.25)
+		(end 5.95 -3.512)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83dafa21-8866-4590-b1de-e6fb658b2eea")
+	)
+	(fp_line
+		(start 5.35 -2.54)
+		(end 5.35 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e6ec04b-86bf-449f-95e3-502f90461f21")
+	)
+	(fp_line
+		(start 5.35 1.45)
+		(end 5.95 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7d8e7cf-449b-42f9-94b2-aab6944d5f9d")
+	)
+	(fp_line
+		(start 5.35 2.1)
+		(end 5.35 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61622ab2-767e-4a1f-87cf-c023b99ad3cd")
+	)
+	(fp_line
+		(start 5.35 3.6)
+		(end -5.35 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8d15335-2ee6-446d-9026-a439ef4c1478")
+	)
+	(fp_line
+		(start 5.95 -3.512)
+		(end 5.95 -2.278)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edde4d65-3b76-46e8-8c31-349db8c09b53")
+	)
+	(fp_line
+		(start 5.95 -2.278)
+		(end 5.35 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72c8bcf0-37d8-4bbc-9081-cd09eafc4a28")
+	)
+	(fp_line
+		(start 5.95 1.2)
+		(end 5.95 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d0fbab3-6cd7-4450-a35d-7718350400bc")
+	)
+	(fp_line
+		(start 5.95 2.1)
+		(end 5.35 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56b97e3f-3e09-489d-987d-4b931020f881")
+	)
+	(fp_circle
+		(center -4.35 -1.6)
+		(end -4.25 -1.6)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d6d7463-be45-47d5-9ab8-9a0b046da4a5")
+	)
+	(fp_poly
+		(pts
+			(xy 6.15 3.8) (xy -5.55 3.8) (xy -5.55 -4.1) (xy 6.15 -4.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "5853bb1f-cd74-4f88-8f59-bba7930c393e")
+	)
+	(fp_line
+		(start -5.25 -3.8)
+		(end 5.25 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55b26db7-bcbc-4bbc-b72f-015059d60300")
+	)
+	(fp_line
+		(start -5.25 3.5)
+		(end -5.25 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95104119-76c9-47c9-afa5-f3f373a4d0c0")
+	)
+	(fp_line
+		(start -5.25 3.5)
+		(end 5.25 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "532f7adb-f06d-457e-b178-fa17aa55a065")
+	)
+	(fp_line
+		(start 5.25 -3.8)
+		(end 5.25 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c66d6613-08e8-484e-8670-ed01e8fcd676")
+	)
+	(fp_line
+		(start 5.25 -3.15)
+		(end 5.85 -3.412)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85c6191f-29c4-4f11-a470-1059465149d6")
+	)
+	(fp_line
+		(start 5.25 -2.64)
+		(end 5.25 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91951896-d5b9-454e-b255-1761c596d0bc")
+	)
+	(fp_line
+		(start 5.25 -2.64)
+		(end 5.85 -2.378)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d96eb731-0e0d-475b-acd4-dc06affd844b")
+	)
+	(fp_line
+		(start 5.25 1.55)
+		(end 5.85 1.318)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "422f28ed-2d4d-405e-9d89-e56a49314128")
+	)
+	(fp_line
+		(start 5.25 2)
+		(end 5.25 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bca17111-1932-4956-bf38-5c46a8eafa4c")
+	)
+	(fp_line
+		(start 5.25 2)
+		(end 5.85 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19df5d14-8728-40df-869c-565ff9dad176")
+	)
+	(fp_line
+		(start 5.85 -2.378)
+		(end 5.85 -3.412)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59e1336e-a377-4531-831d-f7bca75f113a")
+	)
+	(fp_line
+		(start 5.85 2)
+		(end 5.85 1.318)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "095a1f66-6de9-46d0-8acf-e72e2ad7597f")
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b5dc98b0-1f1f-40a1-a136-d4c7047fe3fd")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5f9e718d-3eff-4919-b585-48722d2478f0")
+	)
+	(pad "3" thru_hole circle
+		(at 3.5 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d03fca1f-a2d9-4c3b-a27e-c022e756e97c")
+	)
+	(embedded_fonts no)
+)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU I/O")
-		(date "2025-04-01")
-		(rev "0.1")
+		(date "2025-04-10")
+		(rev "0.2")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -6342,12 +6342,12 @@
 		(at 267.97 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02203837-fd00-4dfe-a2d6-f7a7913a1f92")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 270.51 62.2362 0)
 			(effects
 				(font
@@ -6356,7 +6356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7-11nF"
+		(property "Value" "8pF"
 			(at 270.51 64.7762 0)
 			(effects
 				(font
@@ -6374,7 +6374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3903002.pdf"
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -6392,6 +6392,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 267.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/tdk/cga2b2np01h080d050ba/cap-8pf-50v-c0g-np0-0402/dp/2906902"
+			(at 267.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2baebb6-5e1a-4168-806c-4c6a13635f09")
 		)
@@ -6401,7 +6418,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009474642/SCMP-S-A0009474642-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 24.13 27.94 0)
 			(effects
 				(font
@@ -6453,6 +6470,23 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr08x1001ftl/res-1k-1-0-125w-0805-ceramic/dp/2073606"
 			(at 24.13 27.94 0)
 			(effects
 				(font
@@ -6511,7 +6545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2045820.pdf"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -6530,6 +6564,23 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/kingbright/kp-2012syck/led-alingap-smd-yellow/dp/1318246"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -6563,7 +6614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "222f0204-c4af-4911-b35d-955ef730ce85")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 34.29 138.43 90)
 			(effects
 				(font
@@ -6579,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 30.48 147.0152 0)
 			(effects
 				(font
@@ -6588,7 +6639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 34.29 146.05 0)
 			(effects
 				(font
@@ -6606,6 +6657,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dace9e9e-b093-4736-a677-e69113f9fbbf")
 		)
@@ -6615,7 +6683,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6626,9 +6694,9 @@
 		(at 259.08 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2910bc3d-e17b-4d4b-8d38-07ad4fd782f2")
 		(property "Reference" "Y2"
@@ -6656,7 +6724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4376656.pdf"
 			(at 259.08 57.15 0)
 			(effects
 				(font
@@ -6666,6 +6734,23 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 259.08 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/iqd-frequency-products/lfxtal002997/xtal-32-768khz-12-5pf-6mm-x-2mm/dp/9712887"
 			(at 259.08 57.15 0)
 			(effects
 				(font
@@ -6695,11 +6780,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "32a3bb2b-4701-4b05-a5b0-fb7ed512c4cb")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 247.65 62.2362 0)
 			(effects
 				(font
@@ -6708,7 +6793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7-11nF"
+		(property "Value" "8pF"
 			(at 247.65 64.7762 0)
 			(effects
 				(font
@@ -6726,7 +6811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3903002.pdf"
 			(at 250.19 63.5 0)
 			(effects
 				(font
@@ -6736,6 +6821,23 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 250.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 250.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/tdk/cga2b2np01h080d050ba/cap-8pf-50v-c0g-np0-0402/dp/2906902"
 			(at 250.19 63.5 0)
 			(effects
 				(font
@@ -6753,7 +6855,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6765,11 +6867,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33574154-79b8-4626-9c16-f2563f9854be")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 247.65 30.4862 0)
 			(effects
 				(font
@@ -6778,7 +6880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18-23nF"
+		(property "Value" "22pF"
 			(at 247.65 33.0262 0)
 			(effects
 				(font
@@ -6796,7 +6898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2878571.pdf"
 			(at 250.19 31.75 0)
 			(effects
 				(font
@@ -6814,6 +6916,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/vishay/vj0805a220gxqcw1bc/cap-22pf-10v-mlcc-0805/dp/3296122"
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c0f5c2d-7e39-4f19-b7de-81cb11df281e")
 		)
@@ -6823,7 +6942,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2045820.pdf"
 			(at 198.12 127 0)
 			(effects
 				(font
@@ -6883,6 +7002,23 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/kingbright/kp-2012syck/led-alingap-smd-yellow/dp/1318246"
 			(at 198.12 127 0)
 			(effects
 				(font
@@ -6924,7 +7060,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "330R"
 			(at 185.42 111.76 90)
 			(effects
 				(font
@@ -6932,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 117.348 90)
 			(effects
 				(font
@@ -6941,7 +7077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2609223.pdf"
 			(at 185.42 115.57 0)
 			(effects
 				(font
@@ -6951,6 +7087,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/te-connectivity/crgcq0603j330r/res-330r-5-0603-thick-film/dp/2861861"
 			(at 185.42 115.57 0)
 			(effects
 				(font
@@ -6979,12 +7132,12 @@
 		(at 267.97 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4171bd99-8d57-42f0-961f-5a27b0a5205d")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 270.51 30.4862 0)
 			(effects
 				(font
@@ -6993,7 +7146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18-23nF"
+		(property "Value" "22pF"
 			(at 270.51 33.0262 0)
 			(effects
 				(font
@@ -7011,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2878571.pdf"
 			(at 267.97 31.75 0)
 			(effects
 				(font
@@ -7029,6 +7182,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/vishay/vj0805a220gxqcw1bc/cap-22pf-10v-mlcc-0805/dp/3296122"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a69c889-9496-42b5-817b-6085bda832b7")
 		)
@@ -7038,7 +7208,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7081,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2925583.pdf"
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -7091,6 +7261,23 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-05sg-85/socket-pcb-1-row-5way/dp/1593461"
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -7133,7 +7320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4830b852-bf39-4d58-a636-0aa2552b8f7e")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 39.37 26.6699 0)
 			(effects
 				(font
@@ -7160,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009474642/SCMP-S-A0009474642-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 36.83 27.94 0)
 			(effects
 				(font
@@ -7178,6 +7365,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr08x1001ftl/res-1k-1-0-125w-0805-ceramic/dp/2073606"
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b7d68c-bb18-4f85-af41-7c3d8a310f92")
 		)
@@ -7187,7 +7391,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7229,7 +7433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009474642/SCMP-S-A0009474642-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 27.94 53.34 0)
 			(effects
 				(font
@@ -7239,6 +7443,23 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr08x1001ftl/res-1k-1-0-125w-0805-ceramic/dp/2073606"
 			(at 27.94 53.34 0)
 			(effects
 				(font
@@ -7272,7 +7493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "520d6f0a-3a13-4ce4-a5f8-232a99457d88")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 207.01 137.16 0)
 			(effects
 				(font
@@ -7322,7 +7543,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7337,7 +7558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59401d7a-8930-49d7-880c-937a0c3cb058")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 180.086 23.876 0)
 			(effects
 				(font
@@ -7362,7 +7583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0019040871/SCMP-S-A0019041026-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 172.72 33.02 0)
 			(effects
 				(font
@@ -7372,6 +7593,23 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-08sg-85/conn-rcpt-8pos-1row-2-54mm/dp/1593463"
 			(at 172.72 33.02 0)
 			(effects
 				(font
@@ -7407,7 +7645,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bbdd595-eb28-4cfd-9898-8265b6ab02e5")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 236.22 124.4662 0)
 			(effects
 				(font
@@ -7573,7 +7811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -7582,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -7600,6 +7838,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "505ec532-eab7-4d4d-8923-e53e878f83a5")
 		)
@@ -7609,7 +7864,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7625,7 +7880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7487be14-a1a2-42d6-86d6-951884ccbb57")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 175.26 67.3099 0)
 			(effects
 				(font
@@ -7652,7 +7907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2925583.pdf"
 			(at 172.72 68.58 0)
 			(effects
 				(font
@@ -7662,6 +7917,23 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-05sg-85/socket-pcb-1-row-5way/dp/1593461"
 			(at 172.72 68.58 0)
 			(effects
 				(font
@@ -7688,7 +7960,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7712,7 +7984,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "330R"
 			(at 185.42 100.33 90)
 			(effects
 				(font
@@ -7720,7 +7992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 105.918 90)
 			(effects
 				(font
@@ -7729,7 +8001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2609223.pdf"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -7739,6 +8011,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/te-connectivity/crgcq0603j330r/res-330r-5-0603-thick-film/dp/2861861"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -7799,7 +8088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-PSOC_CONTROL_C3_MainLine_PSC3P5XD_PSC3M5XD_datasheet-DataSheet-v06_00-EN.pdf?fileId=8ac78c8c93dda25b01941ab1660d7a3b"
 			(at 123.19 22.86 0)
 			(effects
 				(font
@@ -7834,6 +8123,23 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/infineon/psc3m5fds2acq1xqla1/mcu-32bit-180mhz-elqfp-ep-64/dp/4661514"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8076,7 +8382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ro.mouser.com/datasheet/2/307/en_b3f-1664344.pdf"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -8086,6 +8392,23 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Omron-Electronics/B3F-1000?qs=lK7M36XCk6JQHckSc1xIsg%3D%3D"
 			(at 260.35 143.51 0)
 			(effects
 				(font
@@ -8152,7 +8475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/62701021621.pdf"
 			(at 39.37 198.12 90)
 			(effects
 				(font
@@ -8162,6 +8485,23 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/62701021621/conn-header-10pos-2row-1-27mm/dp/3818127"
 			(at 48.26 166.37 0)
 			(effects
 				(font
@@ -8219,7 +8559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ec9508c-e7a1-4029-bb84-e7e38c1deca2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 259.08 76.2 0)
 			(effects
 				(font
@@ -8269,7 +8609,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8285,7 +8625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90b483b1-98a3-49f7-9a8a-1c5eaeba79e1")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 91.44 28.194 0)
 			(effects
 				(font
@@ -8310,7 +8650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0019040871/SCMP-S-A0019041026-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 99.06 30.48 0)
 			(effects
 				(font
@@ -8328,6 +8668,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 99.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-02sg-85/conn-rcpt-2pos-1row-2-54mm/dp/1593458"
+			(at 99.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ea3b22e-4c7f-4a06-93ee-71ca7194f4fc")
 		)
@@ -8337,7 +8694,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94d95cce-46ba-42f9-89a0-d0f48fe8a395")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 236.22 148.5962 0)
 			(effects
 				(font
@@ -8371,7 +8728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -8380,7 +8737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -8398,6 +8755,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4272bba-34f0-45bf-b564-8dbc74f09cd6")
 		)
@@ -8407,7 +8781,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8448,7 +8822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ro.mouser.com/datasheet/2/307/en_b3f-1664344.pdf"
 			(at 260.35 119.38 0)
 			(effects
 				(font
@@ -8458,6 +8832,23 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Omron-Electronics/B3F-1000?qs=lK7M36XCk6JQHckSc1xIsg%3D%3D"
 			(at 260.35 119.38 0)
 			(effects
 				(font
@@ -8522,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
 			(at 76.2 163.83 0)
 			(effects
 				(font
@@ -8532,6 +8923,23 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr12x20r0ftl/res-20r-1-0-25w-1206-ceramic/dp/2073906"
 			(at 76.2 163.83 0)
 			(effects
 				(font
@@ -8565,7 +8973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f799fd3-af94-424d-98bc-4597e9062f98")
-		(property "Reference" "J6"
+		(property "Reference" "J10"
 			(at 189.23 49.5299 0)
 			(effects
 				(font
@@ -8592,7 +9000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2925583.pdf"
 			(at 186.69 50.8 0)
 			(effects
 				(font
@@ -8602,6 +9010,23 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-05sg-85/socket-pcb-1-row-5way/dp/1593461"
 			(at 186.69 50.8 0)
 			(effects
 				(font
@@ -8628,7 +9053,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "J6")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8644,7 +9069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0de70e1-8d98-4eed-832f-902cfafd7d74")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 259.08 44.45 0)
 			(effects
 				(font
@@ -8694,7 +9119,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8710,7 +9135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b25a192a-2bbf-49ce-ace9-6b4133493bb7")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 91.694 46.736 0)
 			(effects
 				(font
@@ -8735,7 +9160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0019040871/SCMP-S-A0019041026-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -8745,6 +9170,23 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-08sg-85/conn-rcpt-8pos-1row-2-54mm/dp/1593463"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -8780,7 +9222,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8796,7 +9238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a347e3-d1c2-4c11-9efe-b4bcee38181a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR038"
 			(at 181.61 43.18 0)
 			(effects
 				(font
@@ -8846,7 +9288,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "#PWR043")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8862,7 +9304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb80c580-c3f0-43ee-9b26-5a62350d61e8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 242.57 140.97 0)
 			(effects
 				(font
@@ -8912,7 +9354,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9021,7 +9463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
 			(at 247.65 149.86 0)
 			(effects
 				(font
@@ -9031,6 +9473,23 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 247.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 247.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr04x4701ftl/res-4k7-1-0-0625w-0402-ceramic/dp/2073064"
 			(at 247.65 149.86 0)
 			(effects
 				(font
@@ -9080,7 +9539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -9089,7 +9548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2332069.pdf"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -9099,6 +9558,23 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/samtec/tsw-106-07-l-s/header-2-54mm-single-6way/dp/1668590"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -9144,7 +9620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce5f2ae4-0fd5-4388-89d9-a42ee26d3e52")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 242.57 165.1 0)
 			(effects
 				(font
@@ -9194,7 +9670,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9210,7 +9686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d52da160-1dd2-49bb-974e-7d3c2c55c54f")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 35.56 52.0699 0)
 			(effects
 				(font
@@ -9237,7 +9713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009474642/SCMP-S-A0009474642-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 33.02 53.34 0)
 			(effects
 				(font
@@ -9255,6 +9731,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr08x1001ftl/res-1k-1-0-125w-0805-ceramic/dp/2073606"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "630c6493-c0c5-41c5-8950-ade37c3d3b50")
 		)
@@ -9264,7 +9757,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9288,7 +9781,7 @@
 				)
 			)
 		)
-		(property "Value" "82R"
+		(property "Value" "330R"
 			(at 185.42 123.19 90)
 			(effects
 				(font
@@ -9296,7 +9789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 128.778 90)
 			(effects
 				(font
@@ -9305,7 +9798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2609223.pdf"
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -9315,6 +9808,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/te-connectivity/crgcq0603j330r/res-330r-5-0603-thick-film/dp/2861861"
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -9373,7 +9883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2045820.pdf"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -9392,6 +9902,23 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/kingbright/kp-2012syck/led-alingap-smd-yellow/dp/1318246"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -9452,7 +9979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -9462,6 +9989,23 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr04x4701ftl/res-4k7-1-0-0625w-0402-ceramic/dp/2073064"
 			(at 247.65 125.73 0)
 			(effects
 				(font
@@ -9490,9 +10034,9 @@
 		(at 259.08 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ebaab1c6-a135-4597-b364-d644b8c727c1")
 		(property "Reference" "Y1"
@@ -9520,7 +10064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03441/ABRCS03441-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -9530,6 +10074,23 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 259.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 259.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/abracon/abls-16-000mhz-d4-t/crystal-16mhz-18pf-11-5mm-x-4/dp/3819678"
 			(at 259.08 25.4 0)
 			(effects
 				(font

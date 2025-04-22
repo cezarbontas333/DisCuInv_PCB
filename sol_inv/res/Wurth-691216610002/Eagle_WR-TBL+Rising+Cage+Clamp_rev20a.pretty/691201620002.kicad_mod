@@ -1,0 +1,221 @@
+(footprint "691201620002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 2016 - 10.16 mm 45° Entry w. Rising Cage Clamp\nMax Height =12mm , Pitch 10.16mm , 2 Pins")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "efd3f3f0-7ea6-49b6-84cc-61819b15192f")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691201620002"
+		(at -3.5 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b85aabb3-a329-4d77-ba9f-e08313c94e4f")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02dbb26d-b474-497b-b053-60fe6cca6b9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07fcc1fb-2f1b-4984-b5e0-5b4e55af8188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -7.72 -6.1)
+		(end 8.32 -6.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd741fb8-bd15-4f51-94aa-ac6dd4f78a20")
+	)
+	(fp_line
+		(start -7.72 6.6)
+		(end -7.72 -6.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "823591b9-7cf8-4b86-bd18-58e9264630b7")
+	)
+	(fp_line
+		(start 7.72 -2.75)
+		(end 7.72 6.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "735c2bad-c760-497b-a62b-742d3daf89a7")
+	)
+	(fp_line
+		(start 7.72 6.6)
+		(end -7.72 6.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "355b789a-ed2b-4a10-839b-e357a222892d")
+	)
+	(fp_line
+		(start 8.32 -6.1)
+		(end 8.32 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c99cc24-9f23-48d7-b199-122bcacef5d4")
+	)
+	(fp_line
+		(start 8.32 -2.5)
+		(end 7.72 -2.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b39500be-262c-46c1-b333-d6ab0fa378b3")
+	)
+	(fp_circle
+		(center -6.2 -1.5)
+		(end -6.1 -1.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "32e8173e-621b-4547-a0fe-cd6c9e7747fb")
+	)
+	(fp_poly
+		(pts
+			(xy 8.57 6.85) (xy -7.97 6.85) (xy -7.97 -6.35) (xy 8.57 -6.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "142af168-c905-41f9-9c20-acff54e15cb1")
+	)
+	(fp_line
+		(start -7.62 -6)
+		(end 8.22 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81dda7cb-ba95-4ba1-8458-038340609807")
+	)
+	(fp_line
+		(start -7.62 6.5)
+		(end -7.62 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fba80c54-9754-4ba0-8e3a-d9c991883ba4")
+	)
+	(fp_line
+		(start 7.62 -2.85)
+		(end 7.62 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30093fc4-5456-46a8-a082-db872f4110ae")
+	)
+	(fp_line
+		(start 7.62 -2.85)
+		(end 8.22 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e72ddd59-cdf3-4e1d-b930-f723925f0356")
+	)
+	(fp_line
+		(start 7.62 6.5)
+		(end -7.62 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cc47679-713d-415b-ad12-5c8f2adaa42f")
+	)
+	(fp_line
+		(start 8.22 -6)
+		(end 8.22 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f080b1a5-5bad-4e00-ae6e-1480a46a49ab")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2e939e9c-28f2-4a66-80c1-3d9f1d2ae3f1")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "40a62f3f-ca32-4111-85f5-b17e2c6cf6e2")
+	)
+	(embedded_fonts no)
+)

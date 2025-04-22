@@ -1,0 +1,341 @@
+(footprint "691211720002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 211 - 5.00 mm 45° Entry Modular H=15.5mm\nMax Height =15.5mm , Pitch 5mm , 2 Pins")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46c60d47-0e62-439d-999c-39c74c0d4adb")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691211720002"
+		(at -3.5 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f9e56e4-6662-42f4-95a5-5557fcb38864")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be7cf645-6af6-4149-9035-d8827aa12128")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d2aa68a-0912-4006-b814-a08ec61bf8a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.1 -6.3)
+		(end 5.1 -6.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5101fce-26af-48c5-ad9c-f0028058417a")
+	)
+	(fp_line
+		(start -5.1 7.6)
+		(end -5.1 -6.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "531fdd90-7eae-46c9-8fe8-7dd1ad485593")
+	)
+	(fp_line
+		(start 5.1 -6.3)
+		(end 5.1 -4.74)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c267568-a235-464f-b408-3dd1a594cc4d")
+	)
+	(fp_line
+		(start 5.1 -4.74)
+		(end 5.7 -4.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daf3fd68-baad-485c-b74b-4f450a908893")
+	)
+	(fp_line
+		(start 5.1 -0.86)
+		(end 5.1 3.14)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02342190-7dc3-46d6-988c-71f9ccb04662")
+	)
+	(fp_line
+		(start 5.1 3.14)
+		(end 5.7 3.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f27682e-0029-4a08-b590-f18465ed13f5")
+	)
+	(fp_line
+		(start 5.1 7.08)
+		(end 5.1 7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15a0d799-c7cb-400a-bee8-d4337a418aec")
+	)
+	(fp_line
+		(start 5.1 7.6)
+		(end -5.1 7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6303a624-e699-4767-ba48-24e493c2aa9c")
+	)
+	(fp_line
+		(start 5.7 -4.89)
+		(end 5.7 -0.71)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bab556ea-30c5-45a3-91cc-8ddf86cf9f6b")
+	)
+	(fp_line
+		(start 5.7 -0.71)
+		(end 5.1 -0.86)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc595728-ed8f-46bd-8709-76e2c57a9f70")
+	)
+	(fp_line
+		(start 5.7 3.02)
+		(end 5.7 7.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdf828b9-ebaf-40c3-ae89-41f2ad5991a9")
+	)
+	(fp_line
+		(start 5.7 7.2)
+		(end 5.1 7.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86a13984-5317-4b84-aed4-5abfcb1f9616")
+	)
+	(fp_circle
+		(center -3.8 -2)
+		(end -3.7 -2)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b36aeb48-f845-429d-bfdc-bfb3386d329e")
+	)
+	(fp_poly
+		(pts
+			(xy 5.95 7.85) (xy -5.35 7.85) (xy -5.35 -6.55) (xy 5.95 -6.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "f0116796-b92c-4b27-a53a-ae6ba176c4f2")
+	)
+	(fp_line
+		(start -5 -6.2)
+		(end -5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84be1e84-7118-4afc-be92-f33a847fda46")
+	)
+	(fp_line
+		(start -5 7.5)
+		(end 5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7cbab4c-7bbe-4d67-bbd1-aa770b4b4699")
+	)
+	(fp_line
+		(start 5 -6.2)
+		(end -5 -6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87921ebf-6ab9-4417-b177-bdf5f241400a")
+	)
+	(fp_line
+		(start 5 -6.2)
+		(end 5 -4.64)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2763c866-f814-4cae-a3ed-d40faaf8f787")
+	)
+	(fp_line
+		(start 5 -4.64)
+		(end 5.6 -4.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c17e497-e323-4f50-9b5e-5375cea710f9")
+	)
+	(fp_line
+		(start 5 -0.96)
+		(end 5 3.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "648c413d-a84a-4d57-85c5-8a02c0dce335")
+	)
+	(fp_line
+		(start 5 -0.96)
+		(end 5.6 -0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63b7f9d9-58b7-4c36-911c-3771c09db4cd")
+	)
+	(fp_line
+		(start 5 3.24)
+		(end 5.6 3.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1c7990d-068d-47b2-ba31-1abd55f0e1e9")
+	)
+	(fp_line
+		(start 5 6.98)
+		(end 5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "944685ea-45af-470d-9d38-94758500d244")
+	)
+	(fp_line
+		(start 5 6.98)
+		(end 5.6 7.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dd34f76-3f03-4c15-a993-6d16013fe219")
+	)
+	(fp_line
+		(start 5.6 -0.81)
+		(end 5.6 -4.79)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56014453-80b1-4577-bcfa-c7401e634b45")
+	)
+	(fp_line
+		(start 5.6 7.1)
+		(end 5.6 3.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8286aa1a-78a5-4b81-a1be-c894294e50b9")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "fa049e2d-aa4d-4f39-808f-948ece28c496")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "9feea835-437e-43dc-8ecc-1672c1318443")
+	)
+	(embedded_fonts no)
+)

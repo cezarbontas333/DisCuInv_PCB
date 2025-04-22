@@ -1,0 +1,233 @@
+(footprint "691709710302"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Series 7097 - Rising Cage Clamp 5.0mm pitch - Horizontal cable entry - SMT\n\nMax Height =10.9mm , Pitch 5mm , 2 Pins")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "160aeb06-da07-4d8f-947d-b3de3ec8aacd")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691709710302"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75fda515-c894-494c-aaa8-f9938bdcadc9")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5a09c70-0aa5-4156-995e-4e20c8406029")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b555d968-e73f-4a1d-b1ac-0e70387d39c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.1 -4.3)
+		(end -5.1 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cbe5322-6d21-4ce9-8b7e-1b32195ec06b")
+	)
+	(fp_line
+		(start -5.1 0.7)
+		(end -5.1 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4315bfde-ad30-4f6b-82e8-f7edff81fffa")
+	)
+	(fp_line
+		(start -5.1 4.1)
+		(end 5.1 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2c8734c-e3d4-40ca-8845-071cf74109e2")
+	)
+	(fp_line
+		(start -3.5 -4.3)
+		(end -5.1 -4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf05a255-1bc4-4958-9a11-a38304557546")
+	)
+	(fp_line
+		(start -1.5 -4.3)
+		(end 1.5 -4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28cf1bc9-eb60-4c4a-880b-1f588bf35932")
+	)
+	(fp_line
+		(start 5.1 -4.3)
+		(end 3.5 -4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbc4f63b-3b68-4876-87fe-06c5cba264fc")
+	)
+	(fp_line
+		(start 5.1 -0.7)
+		(end 5.1 -4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9652fc6-5b14-407d-8e20-4d153d3c09c8")
+	)
+	(fp_line
+		(start 5.1 4.1)
+		(end 5.1 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e75142b-6931-4751-b47a-297bbf0f6c2f")
+	)
+	(fp_circle
+		(center -3.8 -7.2)
+		(end -3.7 -7.2)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d50f68c7-3b5e-443b-ae3c-402b9a6a54df")
+	)
+	(fp_poly
+		(pts
+			(xy 7.65 4.35) (xy -7.65 4.35) (xy -7.65 -7.75) (xy 7.65 -7.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "e3cdaca9-8edb-44b6-808f-5614040a6341")
+	)
+	(fp_line
+		(start -5 -4.2)
+		(end 5 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2667893f-3c32-46c7-a78b-0197693041ea")
+	)
+	(fp_line
+		(start -5 4)
+		(end -5 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "507689d3-24c2-4b34-bb02-2288f626feec")
+	)
+	(fp_line
+		(start 5 -4.2)
+		(end 5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0da56fb5-1125-4e63-9dd5-611c3035babe")
+	)
+	(fp_line
+		(start 5 4)
+		(end -5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b51292c1-f7e3-4919-9062-262b057931ec")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.3 0)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f51a4f61-9969-4647-bf4e-847a471a6820")
+	)
+	(pad "" np_thru_hole circle
+		(at 6.3 0)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "de830509-81d6-4395-a97f-83ada801bedc")
+	)
+	(pad "1" smd rect
+		(at -2.5 -5.15)
+		(size 1.4 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a396d86e-fdc1-4c3b-932b-432578818738")
+	)
+	(pad "2" smd rect
+		(at 2.5 -5.15)
+		(size 1.4 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a3943385-8842-4db0-a706-9b6abd876f11")
+	)
+	(embedded_fonts no)
+)

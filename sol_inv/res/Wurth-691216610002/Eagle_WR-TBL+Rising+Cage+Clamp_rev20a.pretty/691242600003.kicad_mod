@@ -1,0 +1,191 @@
+(footprint "691242600003"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 2426 - 10.16 mm Vertical Entry Modular w. Rising Cage Clamp\nMax Height =9.8mm , Pitch 10.16mm , 3 Pins")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4f42cdef-7233-4541-9a7b-57dc62dafb1b")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691242600003"
+		(at -3.5 14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71082d1d-5599-413c-8b5d-86afb9e26457")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f71079a0-7b0c-438c-8173-61423e4df9cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15f9438f-dfcf-407d-aedb-1fa32ef66227")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -12.8 -1.65)
+		(end 12.8 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d60fad16-b36d-4531-84fd-9115c8b8fa51")
+	)
+	(fp_line
+		(start -12.8 12.35)
+		(end -12.8 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db5cd006-72c3-44c8-987c-602cd28ad8c2")
+	)
+	(fp_line
+		(start 12.8 -1.65)
+		(end 12.8 12.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dac5da0c-275d-4c09-bbe6-df5fa2144a0a")
+	)
+	(fp_line
+		(start 12.8 12.35)
+		(end -12.8 12.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70593444-975b-4184-98af-9e136811f678")
+	)
+	(fp_circle
+		(center -11.8 1.3)
+		(end -11.7 1.3)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0ad2432b-27d0-453b-9ed9-5206bebb716f")
+	)
+	(fp_poly
+		(pts
+			(xy 13.0635 12.6135) (xy -13.0635 12.6135) (xy -13.0635 -1.9135) (xy 13.0635 -1.9135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "b3497015-a5bf-4bcb-a57e-7a1626c3ee0f")
+	)
+	(fp_line
+		(start -12.7 -1.55)
+		(end 12.7 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97a45b65-e373-46ee-9273-eee36f64f6c4")
+	)
+	(fp_line
+		(start -12.7 12.25)
+		(end -12.7 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7299393-c92f-46e4-a92e-dce58a67a574")
+	)
+	(fp_line
+		(start 12.7 -1.55)
+		(end 12.7 12.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0656018f-70a8-42d0-aba6-d566ffc56ebf")
+	)
+	(fp_line
+		(start 12.7 12.25)
+		(end -12.7 12.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "100a170c-a097-43ce-98a3-9989cd4a6d33")
+	)
+	(pad "1" thru_hole circle
+		(at -10.16 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "da10c662-af7c-4c87-866a-6a75b41d2fc2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "ee9bf2a5-5a96-4a61-b8f7-7f8ca6f55efd")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "cf51f71d-c491-449d-b5fb-c17b5f517c56")
+	)
+	(embedded_fonts no)
+)

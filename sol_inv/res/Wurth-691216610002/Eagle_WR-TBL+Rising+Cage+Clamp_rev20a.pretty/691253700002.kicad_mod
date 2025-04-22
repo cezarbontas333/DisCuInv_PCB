@@ -1,0 +1,221 @@
+(footprint "691253700002"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WR-TBL Serie 2537 - 5.00 mm Vertical Entry Modular w. Rising Cage Clamp\nMax Height =11.2mm , Pitch 5mm , 2 Pins")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a37a1eee-2de2-4d77-9933-c33c5964c037")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "691253700002"
+		(at -3.5 18.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1096c43-03ce-4661-b857-a4c90a709fac")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aec14e8-0722-4329-abbe-772ec1ca8674")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c40414cc-a913-4dc5-a6ce-95923061fe79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.1 -1.65)
+		(end 5.7 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc87d545-e13a-4473-bbae-295b67fe4734")
+	)
+	(fp_line
+		(start -5.1 16.55)
+		(end -5.1 -1.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3045eaba-3fd1-48e4-850a-e25717dfdf31")
+	)
+	(fp_line
+		(start 5.1 10.55)
+		(end 5.1 16.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "785dd826-a662-4b80-89ff-4733972c771d")
+	)
+	(fp_line
+		(start 5.1 16.55)
+		(end -5.1 16.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea7e5f8f-8013-4e01-bb5f-8c3796a543d2")
+	)
+	(fp_line
+		(start 5.7 -1.65)
+		(end 5.7 10.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "117825f7-bd8e-4b1c-b97d-25c4b38992c7")
+	)
+	(fp_line
+		(start 5.7 10.55)
+		(end 5.1 10.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7182ab07-efd0-424e-94f7-3ec4194da0bb")
+	)
+	(fp_circle
+		(center -3.7 1.7)
+		(end -3.6 1.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a233c92d-b58a-4f78-a486-b22ee5578b55")
+	)
+	(fp_poly
+		(pts
+			(xy 5.95 16.8) (xy -5.35 16.8) (xy -5.35 -1.9) (xy 5.95 -1.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "1c184dcf-061a-4d75-b6aa-31ba38d4adf2")
+	)
+	(fp_line
+		(start -5 16.45)
+		(end -5 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5b64fda-67fe-42c5-9b79-4571a18d874a")
+	)
+	(fp_line
+		(start 5 10.45)
+		(end 5.6 10.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86638767-4a95-4837-be68-fbd9e7c6e406")
+	)
+	(fp_line
+		(start 5 16.45)
+		(end -5 16.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f546a558-b559-481f-80ce-60577a755b4a")
+	)
+	(fp_line
+		(start 5 16.45)
+		(end 5 10.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb4e5a74-a2f1-4840-8230-516d2d772485")
+	)
+	(fp_line
+		(start 5.6 -1.55)
+		(end -5 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f543399f-a470-45ff-9a16-d63fb62663ac")
+	)
+	(fp_line
+		(start 5.6 -1.55)
+		(end 5.6 10.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ee317d3-c3c7-4ca4-be50-9e78a7d591b6")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0 180)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "6aecabed-5cd0-44c0-9e70-48deca12235d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0 180)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f5aa801d-d70b-4f06-9539-c0ff1248f04d")
+	)
+	(embedded_fonts no)
+)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU Power Delivery")
-		(date "2025-03-13")
-		(rev "0.1")
+		(date "2025-04-10")
+		(rev "0.2")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -3411,7 +3411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00f1c23e-e5d7-42ca-b21c-dc034f074b4e")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 171.4564 105.41 90)
 			(effects
 				(font
@@ -3427,7 +3427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4020524.pdf"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -3454,6 +3454,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/yageo/cc0402krx5r6bb475/cap-4-7uf-10v-mlcc-0402/dp/3873393"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bddd992-51e0-4ae6-9893-2553c34cbf17")
 		)
@@ -3463,7 +3480,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ro.mouser.com/datasheet/2/307/en_b3f-1664344.pdf"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -3515,6 +3532,23 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Omron-Electronics/B3F-1000?qs=lK7M36XCk6JQHckSc1xIsg%3D%3D"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -3554,7 +3588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12661653-fb37-431d-a879-ba7f65a7ffc5")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 46.99 68.5862 0)
 			(effects
 				(font
@@ -3572,7 +3606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 44.45 69.85 0)
 			(effects
 				(font
@@ -3581,7 +3615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 44.45 69.85 0)
 			(effects
 				(font
@@ -3599,6 +3633,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22576df9-3fa9-4804-8101-9c71df17f695")
 		)
@@ -3608,7 +3659,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3717,7 +3768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
 			(at 40.64 140.97 0)
 			(effects
 				(font
@@ -3727,6 +3778,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mcmr04x4701ftl/res-4k7-1-0-0625w-0402-ceramic/dp/2073064"
 			(at 40.64 140.97 0)
 			(effects
 				(font
@@ -3759,7 +3827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24a5a560-c850-4ce5-9807-7681cb763be6")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 95.25 102.8762 0)
 			(effects
 				(font
@@ -3777,7 +3845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -3786,7 +3854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3771894.pdf"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -3804,6 +3872,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/taiyo-yuden/msase105sb7224kfnb25/cap-0-22uf-16v-mlcc-0402/dp/4133115"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "065fba36-80df-4e4b-9c83-34d42b8961d4")
 		)
@@ -3813,7 +3898,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3962,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4238718e-82d5-4336-ab6f-e68a5aef2478")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 58.42 157.4862 0)
 			(effects
 				(font
@@ -3980,7 +4065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -3989,7 +4074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -3999,6 +4084,23 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -4016,7 +4118,7 @@
 		(instances
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46a63ef0-a5de-4795-89cd-0b2bf1305eba")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 27.94 68.5862 0)
 			(effects
 				(font
@@ -4049,7 +4151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 69.85 0)
 			(effects
 				(font
@@ -4058,7 +4160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008873229-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 30.48 69.85 0)
 			(effects
 				(font
@@ -4076,6 +4178,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 30.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/samsung-electro-mechanics/cl10a106kp8nnnc/cap-10uf-10v-mlcc-0603/dp/3013386"
+			(at 30.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e27bdc46-b3bf-41eb-98a3-d6820d57b893")
 		)
@@ -4085,7 +4204,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4167,7 +4286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e7f0124-a76b-4fe2-b108-b56b896b22d7")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 43.18 30.4862 0)
 			(effects
 				(font
@@ -4185,7 +4304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 40.64 31.75 0)
 			(effects
 				(font
@@ -4194,7 +4313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 40.64 31.75 0)
 			(effects
 				(font
@@ -4212,6 +4331,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 40.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+			(at 40.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0e0067a-4b45-4885-9f30-fa9e488ef789")
 		)
@@ -4221,7 +4357,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4302,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5527744a-026f-40dc-b298-d768f108d438")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 27.94 97.7962 0)
 			(effects
 				(font
@@ -4320,7 +4456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 99.06 0)
 			(effects
 				(font
@@ -4329,7 +4465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008873229-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 30.48 99.06 0)
 			(effects
 				(font
@@ -4347,6 +4483,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/samsung-electro-mechanics/cl10a106kp8nnnc/cap-10uf-10v-mlcc-0603/dp/3013386"
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8cb7e40f-5871-4fde-9520-7dc713d53a71")
 		)
@@ -4356,7 +4509,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-PSOC_CONTROL_C3_MainLine_PSC3P5XD_PSC3M5XD_datasheet-DataSheet-v06_00-EN.pdf?fileId=8ac78c8c93dda25b01941ab1660d7a3b"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -4435,6 +4588,23 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/infineon/psc3m5fds2acq1xqla1/mcu-32bit-180mhz-elqfp-ep-64/dp/4661514"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4783,7 +4953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8101b35c-8dca-4546-ae21-bec4f94ce149")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 27.94 49.5362 0)
 			(effects
 				(font
@@ -4801,7 +4971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -4810,7 +4980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008873229-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -4828,6 +4998,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/samsung-electro-mechanics/cl10a106kp8nnnc/cap-10uf-10v-mlcc-0603/dp/3013386"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bafc9862-3965-495c-9ce9-853e2bbce81e")
 		)
@@ -4837,7 +5024,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4871,7 +5058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 19.812 87.63 90)
 			(effects
 				(font
@@ -4880,7 +5067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3990272.pdf"
 			(at 21.59 87.63 0)
 			(effects
 				(font
@@ -4890,6 +5077,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mpp102wj010jt2e/res-1r-5-200v-thick-film-2010/dp/4229008"
 			(at 21.59 87.63 0)
 			(effects
 				(font
@@ -4923,7 +5127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae2a1d45-14b7-4476-a462-af42882a4524")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 43.18 97.7962 0)
 			(effects
 				(font
@@ -4941,7 +5145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -4950,7 +5154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -4960,6 +5164,23 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -4977,7 +5198,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4993,7 +5214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b48f27a0-3069-434c-8ce3-0f409ddf0aab")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 46.99 81.2862 0)
 			(effects
 				(font
@@ -5011,7 +5232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -5020,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -5030,6 +5251,23 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -5047,7 +5285,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5062,7 +5300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7473ea8-54f4-44c2-a624-d19e05d83489")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 27.94 30.4862 0)
 			(effects
 				(font
@@ -5080,7 +5318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -5089,7 +5327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008873229-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -5099,6 +5337,23 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/samsung-electro-mechanics/cl10a106kp8nnnc/cap-10uf-10v-mlcc-0603/dp/3013386"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -5116,7 +5371,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5132,7 +5387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d752b1fa-3627-492c-b48c-761031efdf72")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 43.18 49.5362 0)
 			(effects
 				(font
@@ -5150,7 +5405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -5159,7 +5414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -5177,6 +5432,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "347fd392-3d10-439d-91cb-147c53778be5")
 		)
@@ -5186,7 +5458,7 @@
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)

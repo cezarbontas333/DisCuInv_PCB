@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Voltage Reference for ADC")
-		(date "2025-03-13")
-		(rev "0.1")
+		(date "2025-04-10")
+		(rev "0.2")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -936,7 +936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -946,6 +946,23 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/yageo/rt0603bre078kl/res-8k-0-1-0-1w-thin-film-0603/dp/4148462"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -1224,6 +1241,23 @@
 				(hide yes)
 			)
 		)
+		(property "ComponentLink1URL" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/texas-instruments/lm4040dim3-2-5-nopb/volt-ref-shunt-2-5v-sot-23/dp/3009222"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71e66e4a-c113-46f2-823c-90f763b54feb")
 		)
@@ -1288,6 +1322,23 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Microchip-Technology/MCP6001T-I-OT?qs=Q%2Fw7XRh99iki9dglS7IqJg%3D%3D"
 			(at 148.59 101.6 0)
 			(effects
 				(font
