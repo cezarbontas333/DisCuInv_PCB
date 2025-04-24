@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU Power Delivery")
-		(date "2025-04-10")
-		(rev "0.2")
+		(date "2025-04-24")
+		(rev "0.2.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -2096,6 +2096,12 @@
 		(uuid "1bd5224f-915d-4200-a4c2-14a0f3e11bbf")
 	)
 	(junction
+		(at 40.64 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3120c248-e9a8-4074-81cd-d7dea37c9871")
+	)
+	(junction
 		(at 44.45 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2138,10 +2144,10 @@
 		(uuid "59c40706-677b-43c3-a9cf-1bf6729f0042")
 	)
 	(junction
-		(at 43.18 149.86)
+		(at 45.72 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c0e5645-e92f-42d6-ad43-ad41be52629f")
+		(uuid "7af3a3b8-11d3-45cb-bbe1-5ac0e4a8b14e")
 	)
 	(junction
 		(at 30.48 73.66)
@@ -2214,12 +2220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c72c7757-b55a-4ac0-9304-cfb49b20b07f")
-	)
-	(junction
-		(at 40.64 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df45363d-30ac-4fab-975c-e91c0a11b956")
 	)
 	(junction
 		(at 166.37 86.36)
@@ -2329,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 154.94) (xy 38.1 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0957116e-24de-417c-942c-e4790034c2c2")
-	)
-	(wire
-		(pts
 			(xy 166.37 93.98) (xy 166.37 96.52)
 		)
 		(stroke
@@ -2386,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "2463a323-2ec4-426e-a4ca-603fafa6ae53")
+	)
+	(wire
+		(pts
+			(xy 45.72 149.86) (xy 55.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b88267-a582-4a04-8b78-4ac9b807ddae")
 	)
 	(wire
 		(pts
@@ -2489,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 167.64) (xy 40.64 176.53)
+			(xy 40.64 173.99) (xy 40.64 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2506,6 +2506,16 @@
 			(type default)
 		)
 		(uuid "47d05e44-3a8f-4d34-a686-018b2005577d")
+	)
+	(wire
+		(pts
+			(xy 45.72 149.86) (xy 45.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a05ef9f-a906-48f7-bd9c-1bbbfdcc7dc2")
 	)
 	(wire
 		(pts
@@ -2559,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 165.1) (xy 35.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cb3cae-7acc-4c2c-a109-53c63bff65af")
+	)
+	(wire
+		(pts
 			(xy 30.48 102.87) (xy 40.64 102.87)
 		)
 		(stroke
@@ -2579,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 167.64) (xy 43.18 167.64)
+			(xy 40.64 173.99) (xy 45.72 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2646,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "6b0798f2-4667-44d8-b4c2-68fadb8b2b88")
+	)
+	(wire
+		(pts
+			(xy 35.56 149.86) (xy 35.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd0ba9f-dcdc-4b1b-b0d3-dab61c09bd67")
 	)
 	(wire
 		(pts
@@ -2869,16 +2899,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 167.64) (xy 40.64 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d9ff4d-cf90-41df-b6cf-07f01ab59d37")
-	)
-	(wire
-		(pts
 			(xy 76.2 95.25) (xy 76.2 78.74)
 		)
 		(stroke
@@ -2909,16 +2929,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 43.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9daf326b-4954-4c59-bd08-4629ca03fed7")
-	)
-	(wire
-		(pts
 			(xy 21.59 54.61) (xy 30.48 54.61)
 		)
 		(stroke
@@ -2939,13 +2949,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 149.86) (xy 43.18 149.86)
+			(xy 40.64 149.86) (xy 45.72 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fcce792-91c6-43d3-9e40-69dc89f23c69")
+	)
+	(wire
+		(pts
+			(xy 35.56 173.99) (xy 40.64 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05c2b54-4649-485f-9c98-74cf9fb1b392")
 	)
 	(wire
 		(pts
@@ -3019,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 165.1) (xy 45.72 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b974e17c-7dff-4541-9df4-5d85d7f88c5e")
+	)
+	(wire
+		(pts
 			(xy 21.59 91.44) (xy 21.59 102.87)
 		)
 		(stroke
@@ -3046,16 +3076,6 @@
 			(type default)
 		)
 		(uuid "bfdbf6db-0492-4c46-9407-268e2778cbc2")
-	)
-	(wire
-		(pts
-			(xy 43.18 167.64) (xy 43.18 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c207eb8f-ffe1-4623-8b74-400ea751d555")
 	)
 	(wire
 		(pts
@@ -3099,23 +3119,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 149.86) (xy 40.64 149.86)
+			(xy 35.56 149.86) (xy 40.64 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1304b74-bb31-4009-b788-e38e87820e01")
-	)
-	(wire
-		(pts
-			(xy 43.18 149.86) (xy 55.88 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3100a86-99f4-406b-b09d-0a6e25c59541")
 	)
 	(wire
 		(pts
@@ -3196,16 +3206,6 @@
 			(type default)
 		)
 		(uuid "f0d9b0bf-74b6-44ae-b4a6-b2fb6c592aa0")
-	)
-	(wire
-		(pts
-			(xy 38.1 165.1) (xy 38.1 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac1e8c0-62e4-457e-b10c-2353eb470742")
 	)
 	(wire
 		(pts
@@ -3488,7 +3488,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual")
-		(at 40.64 160.02 270)
+		(at 40.64 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3496,7 +3496,7 @@
 		(dnp no)
 		(uuid "0cae44e0-b726-4a82-9259-95c5b4354408")
 		(property "Reference" "SW1"
-			(at 35.56 158.7499 90)
+			(at 39.3699 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3505,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Dual"
-			(at 35.56 161.2899 90)
+			(at 41.9099 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3514,7 @@
 			)
 		)
 		(property "Footprint" "B3F-1000:SW_B3F-1000_OMR"
-			(at 48.26 160.02 0)
+			(at 40.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3523,7 @@
 			)
 		)
 		(property "Datasheet" "https://ro.mouser.com/datasheet/2/307/en_b3f-1664344.pdf"
-			(at 40.64 160.02 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3532,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 40.64 160.02 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3541,7 @@
 			)
 		)
 		(property "ComponentLink1URL" ""
-			(at 40.64 160.02 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3549,7 @@
 			)
 		)
 		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Omron-Electronics/B3F-1000?qs=lK7M36XCk6JQHckSc1xIsg%3D%3D"
-			(at 40.64 160.02 0)
+			(at 40.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 40.64 176.53 0)
+		(at 40.64 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4889,7 +4889,7 @@
 		(fields_autoplaced yes)
 		(uuid "8062e889-96b5-46fe-9000-e4249bae0522")
 		(property "Reference" "#PWR030"
-			(at 40.64 182.88 0)
+			(at 40.64 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 40.64 180.34 0)
+			(at 40.64 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 176.53 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 176.53 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +4924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 40.64 176.53 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

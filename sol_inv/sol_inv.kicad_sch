@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Overview")
-		(date "2025-04-10")
-		(rev "0.2")
+		(date "2025-04-24")
+		(rev "0.2.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -366,6 +366,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 83.82) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7768862f-8910-4b07-a3a1-f1e98dd746a0")
+	)
+	(wire
+		(pts
 			(xy 111.76 125.73) (xy 127 125.73)
 		)
 		(stroke
@@ -516,16 +526,16 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_ESD_Large")
-		(at 149.86 90.17 0)
+		(at 149.86 93.98 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4449cb9a-da89-4ba4-b29d-46e7ae4f7c2a")
 		(property "Reference" "#SYM2"
-			(at 149.86 85.09 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,7 +544,7 @@
 			)
 		)
 		(property "Value" "SYM_ESD_Large"
-			(at 149.86 96.52 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,7 +553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.733 90.932 0)
+			(at 149.733 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.733 90.932 0)
+			(at 149.733 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +571,7 @@
 			)
 		)
 		(property "Description" "ESD warning/\"Do not touch\" symbol, large"
-			(at 149.86 90.17 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +592,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 39.37 33.02 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -962,6 +972,16 @@
 				(justify left)
 			)
 		)
+		(pin "V_{SOURCE}" output
+			(at 184.15 83.82 180)
+			(uuid "1c07e4e8-3330-4bd3-9f11-bd219288191e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "sol_inv"
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc"
@@ -1132,6 +1152,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "V_{SOURCE}" input
+			(at 121.92 83.82 0)
+			(uuid "5cee65db-48f0-4379-86f2-60d58e01e437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

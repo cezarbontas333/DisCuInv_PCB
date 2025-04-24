@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Power Source")
-		(date "2025-04-10")
-		(rev "0.2")
+		(date "2025-04-24")
+		(rev "0.2.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -2521,7 +2521,7 @@
 		(lib_id "Graphic:SYM_Flash_Large")
 		(at 118.11 91.44 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
