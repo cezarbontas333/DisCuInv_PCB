@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU I/O")
-		(date "2025-04-24")
-		(rev "0.2.1")
+		(date "2025-05-01")
+		(rev "0.3")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -6286,6 +6286,28 @@
 		)
 		(uuid "5ee08c63-9d3f-4d3e-90a1-e664a0e50426")
 	)
+	(hierarchical_label "VS_{AC}"
+		(shape input)
+		(at 102.87 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6343bc2b-57e4-4400-9243-bdd2a2e89bce")
+	)
+	(hierarchical_label "VS_{C2}"
+		(shape input)
+		(at 102.87 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d24701e-e3d5-4a40-8fef-74c8f9b250b0")
+	)
 	(hierarchical_label "IN_{A}"
 		(shape output)
 		(at 167.64 83.82 0)
@@ -6330,17 +6352,6 @@
 		)
 		(uuid "9346dcfd-f7bc-4568-80db-a14dcb074fc1")
 	)
-	(hierarchical_label "VS_{AC}"
-		(shape input)
-		(at 102.87 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfaa44f8-0fba-4da9-a16f-42f7250151b1")
-	)
 	(hierarchical_label "IN_{B}"
 		(shape output)
 		(at 167.64 78.74 0)
@@ -6362,17 +6373,6 @@
 			(justify left)
 		)
 		(uuid "e6142991-4cd6-4cc1-875a-fdd0f2228f03")
-	)
-	(hierarchical_label "VS_{C2}"
-		(shape input)
-		(at 102.87 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe370e37-2118-436e-83e6-18e11295604b")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6667,7 +6667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 147.0152 0)
 			(effects
 				(font
@@ -6676,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 34.29 146.05 0)
 			(effects
 				(font
@@ -6702,7 +6702,7 @@
 				)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+		(property "ComponentLink2URL" "https://ro.farnell.com/kemet/c0402c104k4ractu/cap-0-1-f-16v-10-x7r-0402/dp/1288252"
 			(at 34.29 146.05 0)
 			(effects
 				(font
@@ -6904,9 +6904,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "33574154-79b8-4626-9c16-f2563f9854be")
 		(property "Reference" "C24"
 			(at 247.65 30.4862 0)
@@ -7169,9 +7169,9 @@
 		(at 267.97 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4171bd99-8d57-42f0-961f-5a27b0a5205d")
 		(property "Reference" "C26"
@@ -7848,7 +7848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -7857,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 				)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+		(property "ComponentLink2URL" "https://ro.farnell.com/kemet/c0402c104k4ractu/cap-0-1-f-16v-10-x7r-0402/dp/1288252"
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -8776,7 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3816100.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -8802,7 +8802,7 @@
 				)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.farnell.com/wurth-elektronik/885012104002/cap-0-1uf-10v-mlcc-0201/dp/4137872"
+		(property "ComponentLink2URL" "https://ro.farnell.com/kemet/c0402c104k4ractu/cap-0-1-f-16v-10-x7r-0402/dp/1288252"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -10075,9 +10075,9 @@
 		(at 259.08 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebaab1c6-a135-4597-b364-d644b8c727c1")
 		(property "Reference" "Y1"
@@ -10096,7 +10096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABLS-16-000MHZ-B2-T:XTAL_ABLS-16_ABR"
+		(property "Footprint" "SamacSys_Parts:ABLS7"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -10105,7 +10105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03441/ABRCS03441-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "https://ro.mouser.com/datasheet/2/3/ABLS7M2-1774905.pdf"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -10129,9 +10129,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.farnell.com/abracon/abls-16-000mhz-d4-t/crystal-16mhz-18pf-11-5mm-x-4/dp/3819678"
+		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/ABRACON/ABLS7M2-16.000MHZ-D-2Y-T?qs=%252Bk6%2F5FB6qrnKBcQH%252BGT8Xw%3D%3D"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -10148,6 +10149,10 @@
 		)
 		(instances
 			(project ""
+				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b"
+					(reference "Y1")
+					(unit 1)
+				)
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
 					(reference "Y1")
 					(unit 1)
