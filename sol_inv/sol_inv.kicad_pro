@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_symbol_mismatch|159250000|103450000|3716332f-682f-4ed3-9cd1-6b247dfde383|00000000-0000-0000-0000-000000000000",
+          "Needed to respect minimum pitch distance"
+        ],
+        [
+          "lib_footprint_mismatch|126000000|64287500|97ffc02e-cb69-4ca9-acb8-b39af0390a0a|00000000-0000-0000-0000-000000000000",
+          "Better footprint provided"
+        ],
+        [
+          "lib_footprint_mismatch|175702282|105000000|b1a501b4-6430-44b0-bb6d-42a4a006e535|00000000-0000-0000-0000-000000000000",
+          "Custom footprint provided by manufacturer"
+        ],
+        [
+          "lib_footprint_mismatch|30550000|48050000|87cb6694-b753-4291-bab4-f553feed1661|00000000-0000-0000-0000-000000000000",
+          "Custom footprint for handsoldering THD wires"
+        ],
+        [
+          "lib_footprint_mismatch|53250000|64250000|c91af814-05df-4f96-8cc2-d3773220d9f6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|82500000|55500000|a67a1585-2be0-4356-8ef3-b1bffffdef8b|00000000-0000-0000-0000-000000000000",
+          "Custom footprint provided by manufacturer"
+        ],
+        [
+          "silk_edge_clearance|129000000|156000000|448a2103-4a7c-46cb-b870-5b313a61ffc8|3d27037b-fa0d-4ad5-bde9-da2d0a710612",
+          ""
+        ],
+        [
+          "silk_edge_clearance|260500000|78250000|448a2103-4a7c-46cb-b870-5b313a61ffc8|df2bd929-ef99-4cc9-8ce0-859d4e2b01dc",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -96,18 +129,18 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
+        "nonmirrored_text_on_back_layer": "ignore",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -137,9 +170,9 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -519,7 +552,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

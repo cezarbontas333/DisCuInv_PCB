@@ -18,6 +18,7 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+production
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -29,6 +30,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+*.xlsx
+*.xls
 
 # Media files from imported symbols/footprints
 *.txt

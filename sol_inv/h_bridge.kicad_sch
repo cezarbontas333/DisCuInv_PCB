@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "H-Bridge Current Conversion")
-		(date "2025-05-01")
-		(rev "0.3")
+		(date "2025-05-07")
+		(rev "0.3.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -7422,7 +7422,7 @@
 				)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.farnell.com/te-connectivity/crgcq0603j330r/res-330r-5-0603-thick-film/dp/2861861"
+		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Vishay-Dale/WSLP2512R0100FEA?qs=2spUtbtSOvj5wmRiEB0lew%3D%3D"
 			(at 251.46 49.53 0)
 			(effects
 				(font
