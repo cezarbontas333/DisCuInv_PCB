@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_symbol_mismatch|159250000|103450000|3716332f-682f-4ed3-9cd1-6b247dfde383|00000000-0000-0000-0000-000000000000",
-          "Needed to respect minimum pitch distance"
-        ],
-        [
-          "lib_footprint_mismatch|126000000|64287500|97ffc02e-cb69-4ca9-acb8-b39af0390a0a|00000000-0000-0000-0000-000000000000",
-          "Better footprint provided"
-        ],
-        [
           "lib_footprint_mismatch|175702282|105000000|b1a501b4-6430-44b0-bb6d-42a4a006e535|00000000-0000-0000-0000-000000000000",
           "Custom footprint provided by manufacturer"
         ],
@@ -82,6 +74,18 @@
         [
           "lib_footprint_mismatch|82500000|55500000|a67a1585-2be0-4356-8ef3-b1bffffdef8b|00000000-0000-0000-0000-000000000000",
           "Custom footprint provided by manufacturer"
+        ],
+        [
+          "padstack|170190500|110809500|684a6140-a684-40e8-8dca-2ae3881f345e|00000000-0000-0000-0000-000000000000",
+          "Provided by Infineon, seems like a fiducial."
+        ],
+        [
+          "padstack|176000000|105000000|add18bdc-a1b7-4dc8-9561-c88e910badaa|00000000-0000-0000-0000-000000000000",
+          "Provided by Infineon, unless it's a problem with Altium to KiCad conversions."
+        ],
+        [
+          "padstack|181809500|99190500|1c50f62e-c45e-4e34-b93c-dc7c53723214|00000000-0000-0000-0000-000000000000",
+          "Provided by Infineon, seems like a fiducial."
         ],
         [
           "silk_edge_clearance|129000000|156000000|448a2103-4a7c-46cb-b870-5b313a61ffc8|3d27037b-fa0d-4ad5-bde9-da2d0a710612",
@@ -286,7 +290,144 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1676400|1117600|a30c73bb-2166-43a4-90c6-e0d079d18ff3|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1739900|787400|63627262-b66c-418f-9555-58b48a9b0593|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2590800|1295400|ec85e7ae-fd08-434b-94d9-a4b127a51cbe|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2590800|254000|ebaab1c6-a135-4597-b364-d644b8c727c1|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|2590800|571500|2910bc3d-e17b-4d4b-8d38-07ad4fd782f2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|723900|1168400|a8924f69-c3a5-4c7c-ae64-9abe3f335be2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1206500|1524000|208b77bd-e346-4dd3-aa94-383023fe98c1|3759f92c-c86d-420e-9e2f-06cfe6505d16|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80",
+        ""
+      ],
+      [
+        "multiple_net_names|1689100|863600|8e6d7c45-2735-436f-9e30-33202ced3e1f|34f009d4-5152-4704-bdb5-051afd0dd9a9|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b",
+        ""
+      ],
+      [
+        "multiple_net_names|2514600|1498600|9aeadf33-194d-4859-bb15-c875bdba067d|6b3f02b4-de0c-4934-8a3b-fb9a20bdbb3e|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80",
+        ""
+      ],
+      [
+        "multiple_net_names|2514600|292100|59a7b0fc-3df6-4f91-8e3e-f6cfff20bb75|3134c51b-7252-45af-87c7-581adf0bf2cb|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80|/c5b733d3-d844-4c5a-a928-539beea9cfbc/b2736adf-e085-470b-aff7-6a5a302acc80",
+        ""
+      ],
+      [
+        "multiple_net_names|596900|1435100|fdebee2d-19aa-4294-9d28-44d82bebc6e7|b5a3b510-4334-49a1-a6a0-88f8ac51825e|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b",
+        ""
+      ],
+      [
+        "pin_to_pin|1384300|1155700|6407b89d-7d74-45cc-a461-1d0afcc76792|f0c26b50-b960-42c5-b8e6-80c766666b42|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd",
+        "Symbol issue, otherwise fine."
+      ],
+      [
+        "pin_to_pin|1384300|1181100|ac2b6498-9e24-4047-9b5d-4b8d69eb40b1|167407c2-1ec6-48a3-a674-7a8a17942c57|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd",
+        ""
+      ],
+      [
+        "pin_to_pin|977900|1130300|e2f3db3f-079a-4dcd-ab67-8c6026527003|69332a4d-5fa8-4e97-ab5d-401fd27458dc|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd",
+        ""
+      ],
+      [
+        "pin_to_pin|977900|1206500|d27a72e9-4bee-4f9d-bc62-870f9e109521|fc612858-a33e-45b6-a3db-c9de7ad2352e|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd|/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1155700|254000|eedb3ecc-cab4-4f4f-922c-dc3950307e4f|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|279400|141b504a-f15c-49fa-9f7d-bbe8fd620ac2|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|304800|34f2311b-eefa-43f8-9b9e-c5547a75637f|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|330200|ffd39638-24d2-4869-9849-430a4a50f7df|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|355600|ace47f51-7231-4e80-9162-ecca92e469a8|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|381000|433e27fd-fc6e-42e9-926d-0b02d3a810f3|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|406400|0a5a65b5-879e-401f-b277-4645407cdf7a|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|431800|05a28a48-5b9f-477d-bcfa-eb44bf16b4c6|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|482600|b2081dd5-6280-4638-a2bb-aaf7c3c2730e|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|508000|ae55cee0-1833-4493-bb0e-548730c9351f|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|533400|7e194fc9-d5bb-4081-a6f7-5d0222dd0852|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|558800|cf723da2-9334-4963-b7e0-97fceb0cacf3|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|584200|bdadd089-fdc1-4add-9cdd-da6a34461b6b|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|609600|f5019a66-a316-4926-91f0-24d3d381de28|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|635000|150803ec-6678-49a5-b09a-e6076e6b23d2|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1155700|660400|4af4152b-c44f-4517-ac8a-285be4f5981e|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182|",
+        "Analog input, inaccurate power connection"
+      ],
+      [
+        "power_pin_not_driven|1168400|914400|2d499254-47dc-4ab2-94f9-d252728634e6|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|",
+        "It is actually connected to a power output"
+      ],
+      [
+        "power_pin_not_driven|1168400|990600|65cf9412-cd34-42d8-b254-ddec3058a990|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|",
+        "It is actually connected to a power output"
+      ],
+      [
+        "power_pin_not_driven|1625600|990600|166fbcc6-6d5f-425a-b43e-bc73d98b688f|00000000-0000-0000-0000-000000000000|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|/c5b733d3-d844-4c5a-a928-539beea9cfbc/53ef7f55-61e8-4ef7-94ec-bf64f13de35b|",
+        "It is actually connected to a power output"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -552,10 +693,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sol_inv.step",
       "svg": "",
       "vrml": ""
     },
@@ -563,7 +704,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "sol_inv_bom.csv",
+    "bom_export_filename": "production\\sol_inv_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -708,7 +849,7 @@
           "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -869,7 +1010,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "gerber/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

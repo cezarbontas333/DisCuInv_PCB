@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCU I/O")
-		(date "2025-05-01")
-		(rev "0.3")
+		(date "2025-05-26")
+		(rev "0.3.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -4002,6 +4002,18 @@
 		(uuid "1383cc11-013b-4dee-bd53-0fe7db81fac6")
 	)
 	(junction
+		(at 73.66 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18df609a-e62c-4e33-8599-0ce52fdd3e68")
+	)
+	(junction
+		(at 76.2 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "295bb72f-9674-4fd0-83b3-04c152352e1e")
+	)
+	(junction
 		(at 48.26 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4020,6 +4032,12 @@
 		(uuid "3d18c636-2d9a-4668-adb9-efbd6bf0563d")
 	)
 	(junction
+		(at 81.28 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f582c2-706f-4ecc-b2f3-196a43d3b9b8")
+	)
+	(junction
 		(at 267.97 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4030,6 +4048,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49fe45cc-e275-456d-aead-f642665aac1a")
+	)
+	(junction
+		(at 78.74 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5de46f54-b2db-4f4a-9a4b-776bcc85f16d")
 	)
 	(junction
 		(at 242.57 154.94)
@@ -4201,7 +4225,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 38.1) (xy 115.57 38.1)
+			(xy 64.77 38.1) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4231,6 +4255,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 58.42) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a79b21b-b8c5-46e6-9f3b-d8327a7f0383")
+	)
+	(wire
+		(pts
+			(xy 81.28 43.18) (xy 115.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0375ea-6ecb-4c8c-a79b-3e80b747b52d")
+	)
+	(wire
+		(pts
 			(xy 106.68 71.12) (xy 115.57 71.12)
 		)
 		(stroke
@@ -4238,6 +4282,16 @@
 			(type default)
 		)
 		(uuid "0d1ad76a-891c-48ac-9309-9b8bef3ee48d")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1248c700-e1f4-40b1-b3f7-b9bf1a163dab")
 	)
 	(wire
 		(pts
@@ -4301,7 +4355,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 35.56) (xy 115.57 35.56)
+			(xy 64.77 35.56) (xy 73.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4348,6 +4402,16 @@
 			(type default)
 		)
 		(uuid "27b9e7a8-c184-4b78-a48e-8914ba92a0e0")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 115.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281779e5-23e7-4da5-a9ee-57843d08ee98")
 	)
 	(wire
 		(pts
@@ -4691,6 +4755,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 43.18) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f241da-2005-408a-849a-f1a9b30231e6")
+	)
+	(wire
+		(pts
 			(xy 162.56 73.66) (xy 162.56 71.12)
 		)
 		(stroke
@@ -4971,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 40.64) (xy 115.57 40.64)
+			(xy 64.77 40.64) (xy 78.74 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5041,7 +5115,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 43.18) (xy 115.57 43.18)
+			(xy 64.77 43.18) (xy 81.28 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5098,6 +5172,16 @@
 			(type default)
 		)
 		(uuid "8157b521-f82f-4758-a08e-619a971a0c10")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83725f7c-791e-48f0-86bc-22fcc2909341")
 	)
 	(wire
 		(pts
@@ -5691,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 40.64) (xy 78.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db50a6d1-26ac-46ae-ba2f-f78d074b20e6")
+	)
+	(wire
+		(pts
 			(xy 247.65 130.81) (xy 247.65 128.27)
 		)
 		(stroke
@@ -5708,6 +5802,16 @@
 			(type default)
 		)
 		(uuid "dd8424ea-e6be-46e1-91b8-132f51d18ad3")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 76.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7b1c48-6999-4353-92b3-8e2f658fcfe8")
 	)
 	(wire
 		(pts
@@ -5738,6 +5842,16 @@
 			(type default)
 		)
 		(uuid "e2203f15-2d42-4d9d-9e84-fc9528ac8584")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a68348-fac8-4157-969e-139d70968668")
 	)
 	(wire
 		(pts
@@ -6244,7 +6358,7 @@
 	)
 	(hierarchical_label "IS_{AC}"
 		(shape input)
-		(at 102.87 40.64 180)
+		(at 64.77 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6266,7 +6380,7 @@
 	)
 	(hierarchical_label "VS_{C1}"
 		(shape input)
-		(at 102.87 35.56 180)
+		(at 64.77 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6288,7 +6402,7 @@
 	)
 	(hierarchical_label "VS_{AC}"
 		(shape input)
-		(at 102.87 43.18 180)
+		(at 64.77 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6299,7 +6413,7 @@
 	)
 	(hierarchical_label "VS_{C2}"
 		(shape input)
-		(at 102.87 38.1 180)
+		(at 64.77 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6532,6 +6646,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCMR08X1001FTL"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25a08503-d7ef-4d33-b215-828629fad9b8")
 		)
@@ -6626,6 +6748,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "KP-2012SYCK"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b570b7c0-a0c0-477a-8fa8-e2892cf85818")
 		)
@@ -6711,6 +6841,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dace9e9e-b093-4736-a677-e69113f9fbbf")
 		)
@@ -6752,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LFXTAL002995:XTAL_LFXTAL002995BULK_IQD"
+		(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Vertical"
 			(at 259.08 57.15 0)
 			(effects
 				(font
@@ -6970,6 +7108,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "VJ0805A220GXQCW1BC"
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c0f5c2d-7e39-4f19-b7de-81cb11df281e")
 		)
@@ -7064,6 +7210,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "KP-2012SYCK"
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f696ee7f-d20a-4bc4-98b5-fab6b314e516")
 		)
@@ -7147,6 +7301,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0603J330R"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7236,6 +7398,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "VJ0805A220GXQCW1BC"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a69c889-9496-42b5-817b-6085bda832b7")
 		)
@@ -7321,6 +7491,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1593461"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7419,6 +7597,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCMR08X1001FTL"
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "99b7d68c-bb18-4f85-af41-7c3d8a310f92")
 		)
@@ -7503,6 +7689,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCMR08X1001FTL"
+			(at 27.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7653,6 +7847,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2212S-08SG-85"
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -7892,6 +8094,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "505ec532-eab7-4d4d-8923-e53e878f83a5")
 		)
@@ -7977,6 +8187,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1593461"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -8071,6 +8289,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0603J330R"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8178,6 +8404,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PSC3M5FDS2ACQ1XQLA1"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "58"
@@ -8456,6 +8690,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" " B3F-1000"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3d508bb5-2aa2-4167-b372-161321df48ad")
 		)
@@ -8547,6 +8789,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "62701021621"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -8724,6 +8974,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "2212S-02SG-85"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ea3b22e-4c7f-4a06-93ee-71ca7194f4fc")
 		)
@@ -8811,6 +9069,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4272bba-34f0-45bf-b564-8dbc74f09cd6")
 		)
@@ -8896,6 +9162,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " B3F-1000"
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -8989,6 +9263,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCMR12X20R0FTL"
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56d1cdc1-d056-4c51-99ea-c03676dc4000")
 		)
@@ -9076,6 +9358,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "1593461"
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "83621e02-f026-4043-bb22-d53cf66416ea")
 		)
@@ -9095,6 +9385,72 @@
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac3ee865-89c2-4732-aa4f-4931a4a3d7f3")
+		(property "Reference" "#PWR049"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "653cabd2-74ed-4208-ad87-44fe04d17c0a")
+		)
+		(instances
+			(project ""
+				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9234,6 +9590,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "2212S-08SG-85"
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -9539,6 +9903,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCMR04X4701FTL"
+			(at 247.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8998013b-6e9f-4dde-b19e-a27f14b82d76")
 		)
@@ -9622,6 +9994,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TSW-106-07-L-S"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -9789,6 +10169,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCMR08X1001FTL"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "630c6493-c0c5-41c5-8950-ade37c3d3b50")
 		)
@@ -9872,6 +10260,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRGCQ0603J330R"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9968,6 +10364,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "KP-2012SYCK"
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ac313cd-7031-4f63-9006-3b696d13d49b")
 		)
@@ -10053,6 +10457,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCMR04X4701FTL"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10141,6 +10553,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "ABLS7M2-16.000MHZ-D-2Y-T"
+			(at 259.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e051b764-a09c-40bc-9308-2f4366f08a5e")
 		)
@@ -10155,6 +10575,110 @@
 				)
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 76.2 66.04 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb580bf9-e6c8-45fe-a5cb-da2f16244935")
+		(property "Reference" "J12"
+			(at 74.9299 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 77.4699 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2925583.pdf"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/2212s-05sg-85/socket-pcb-1-row-5way/dp/1593461"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1593461"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "55fe0d5d-b122-4817-8596-f02458c5a645")
+		)
+		(pin "1"
+			(uuid "19d54562-5564-41ee-b19c-6f30933d9246")
+		)
+		(pin "2"
+			(uuid "294490e8-4ba4-4195-a078-9113e2b058d5")
+		)
+		(pin "5"
+			(uuid "c2eecd2f-a5fc-4ee1-bf5e-e43bb4798b3d")
+		)
+		(pin "4"
+			(uuid "d3f8c317-11f0-4b47-bf15-27aee452ad63")
+		)
+		(instances
+			(project "sol_inv"
+				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/cfdc49a3-8c65-4747-bcf8-434cef8ee182"
+					(reference "J12")
 					(unit 1)
 				)
 			)

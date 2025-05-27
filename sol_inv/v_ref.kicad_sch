@@ -971,6 +971,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RT0603BRE078KL"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95f4e318-7c2e-45eb-8371-25b5eab93776")
 		)
@@ -1258,6 +1266,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "LM4040DIM3-2.5/NOPB"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "71e66e4a-c113-46f2-823c-90f763b54feb")
 		)
@@ -1345,6 +1361,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCP6001T-I/OT"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -3471,6 +3471,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CC0402KRX5R6BB475"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4bddd992-51e0-4ae6-9893-2553c34cbf17")
 		)
@@ -3555,6 +3563,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " B3F-1000"
+			(at 40.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -3648,6 +3664,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3803,6 +3827,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MCMR04X4701FTL"
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf82d730-7a47-4fc4-b86c-4dcaaefedf5e")
 		)
@@ -3887,6 +3919,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MSASE105SB7224KFNB25"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4109,6 +4149,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38ead771-fc59-4f79-b29d-b5dc64d351d6")
 		)
@@ -4193,6 +4241,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 30.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4348,6 +4404,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 40.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0e0067a-4b45-4885-9f30-fa9e488ef789")
 		)
@@ -4500,6 +4564,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cb7e40f-5871-4fde-9520-7dc713d53a71")
 		)
@@ -4606,6 +4678,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PSC3M5FDS2ACQ1XQLA1"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "58"
@@ -5015,6 +5095,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bafc9862-3965-495c-9ce9-853e2bbce81e")
 		)
@@ -5100,6 +5188,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJUP3J1R0V"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5189,6 +5285,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "029789a2-8af8-46b5-9a1c-adeb3f201b4f")
 		)
@@ -5274,6 +5378,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5362,6 +5474,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d40b724f-2d12-4fa8-a32c-c1aa266a2db3")
 		)
@@ -5447,6 +5567,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

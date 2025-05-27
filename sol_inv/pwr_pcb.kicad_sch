@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Power Source")
-		(date "2025-05-01")
-		(rev "0.3")
+		(date "2025-05-26")
+		(rev "0.3.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -2436,6 +2436,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CC1206KKX5R8BB226"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da3ec61d-3dc1-4ff8-9459-ea68d46ebf3b")
 		)
@@ -2652,6 +2660,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "AZ1117CR2-3.3TRG1"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8d783b4a-aa5d-4a84-bdd1-9aeb56c003dd")
 		)
@@ -2809,6 +2825,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "44229"
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "ac2b6498-9e24-4047-9b5d-4b8d69eb40b1")
 		)
@@ -2906,6 +2930,14 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MDB6S"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "614932a6-4829-404b-9aeb-77e0dba6c60e")
 		)
@@ -2962,7 +2994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ro.mouser.com/datasheet/2/358/typ_2570-1283887.pdf"
+		(property "Datasheet" "https://www.farnell.com/datasheets/3186237.pdf"
 			(at 72.39 116.84 0)
 			(effects
 				(font
@@ -2988,13 +3020,21 @@
 				)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.mouser.com/ProductDetail/Schurter/4300.0103?qs=rrS6PyfT74fALdoccvhz1Q%3D%3D"
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/jr-201s-pcb/inlet-iec-class2-fig-8-pcb/dp/9248161"
 			(at 72.39 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "JR-201S(PCB)"
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3080,6 +3120,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MC000827"
+			(at 151.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3366,6 +3414,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "860010275020"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

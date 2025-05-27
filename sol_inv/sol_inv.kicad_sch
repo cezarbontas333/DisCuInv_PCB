@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Overview")
-		(date "2025-05-01")
-		(rev "0.3")
+		(date "2025-05-26")
+		(rev "0.3.1")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
