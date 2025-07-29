@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Overview")
-		(date "2025-05-26")
-		(rev "0.3.1")
+		(date "2025-07-29")
+		(rev "0.4")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -745,7 +745,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 163.83)
+		(at 184.15 118.11)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -761,7 +761,7 @@
 		)
 		(uuid "55c49600-108e-423a-878a-ddd218e994fd")
 		(property "Sheetname" "Power Source"
-			(at 137.16 163.1184 0)
+			(at 184.15 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +770,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr_pcb.kicad_sch"
-			(at 137.16 179.6546 0)
+			(at 184.15 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

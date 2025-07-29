@@ -60,39 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|175702282|105000000|b1a501b4-6430-44b0-bb6d-42a4a006e535|00000000-0000-0000-0000-000000000000",
-          "Custom footprint provided by manufacturer"
-        ],
-        [
-          "lib_footprint_mismatch|30550000|48050000|87cb6694-b753-4291-bab4-f553feed1661|00000000-0000-0000-0000-000000000000",
-          "Custom footprint for handsoldering THD wires"
-        ],
-        [
-          "lib_footprint_mismatch|53250000|64250000|c91af814-05df-4f96-8cc2-d3773220d9f6|00000000-0000-0000-0000-000000000000",
+          "silk_edge_clearance|133495000|159500000|448a2103-4a7c-46cb-b870-5b313a61ffc8|3d27037b-fa0d-4ad5-bde9-da2d0a710612",
           ""
         ],
         [
-          "lib_footprint_mismatch|82500000|55500000|a67a1585-2be0-4356-8ef3-b1bffffdef8b|00000000-0000-0000-0000-000000000000",
-          "Custom footprint provided by manufacturer"
-        ],
-        [
-          "padstack|170190500|110809500|684a6140-a684-40e8-8dca-2ae3881f345e|00000000-0000-0000-0000-000000000000",
-          "Provided by Infineon, seems like a fiducial."
-        ],
-        [
-          "padstack|176000000|105000000|add18bdc-a1b7-4dc8-9561-c88e910badaa|00000000-0000-0000-0000-000000000000",
-          "Provided by Infineon, unless it's a problem with Altium to KiCad conversions."
-        ],
-        [
-          "padstack|181809500|99190500|1c50f62e-c45e-4e34-b93c-dc7c53723214|00000000-0000-0000-0000-000000000000",
-          "Provided by Infineon, seems like a fiducial."
-        ],
-        [
-          "silk_edge_clearance|129000000|156000000|448a2103-4a7c-46cb-b870-5b313a61ffc8|3d27037b-fa0d-4ad5-bde9-da2d0a710612",
-          ""
-        ],
-        [
-          "silk_edge_clearance|260500000|78250000|448a2103-4a7c-46cb-b870-5b313a61ffc8|df2bd929-ef99-4cc9-8ce0-859d4e2b01dc",
+          "silk_edge_clearance|264995000|81750000|448a2103-4a7c-46cb-b870-5b313a61ffc8|df2bd929-ef99-4cc9-8ce0-859d4e2b01dc",
           ""
         ]
       ],
@@ -693,8 +665,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
-      "pos_files": "",
+      "plot": "release/",
+      "pos_files": "release/",
       "specctra_dsn": "",
       "step": "sol_inv.step",
       "svg": "",
@@ -704,7 +676,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "production\\sol_inv_bom.csv",
+    "bom_export_filename": "release\\bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -964,6 +936,12 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Enable",
+          "name": "Sim.Enable",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1010,7 +988,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "gerber/",
+    "plot_directory": "release/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

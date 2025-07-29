@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Power Source")
-		(date "2025-05-26")
-		(rev "0.3.1")
+		(date "2025-07-29")
+		(rev "0.4")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -981,6 +981,101 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Graphic:SYM_Arrow_Normal"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Arrow_Normal"
+				(at 0.254 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Filled arrow, 200mil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Arrow_Normal_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.762 -0.508) (xy 0.762 0.508) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Graphic:SYM_Flash_Large"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1915,6 +2010,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Placeholder for actual fuse, useful for BOM"
+		(exclude_from_sim yes)
+		(at 151.13 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fe3ff58-699d-4dfe-802d-d4cb902ef1a7")
+	)
 	(junction
 		(at 228.6 104.14)
 		(diameter 0)
@@ -2442,6 +2547,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2607,7 +2721,7 @@
 				)
 			)
 		)
-		(property "Value" "AZ1117CR2-3.3"
+		(property "Value" "AZ1117CR-3.3"
 			(at 213.36 100.33 0)
 			(effects
 				(font
@@ -2651,7 +2765,7 @@
 				)
 			)
 		)
-		(property "ComponentLink2URL" "https://ro.farnell.com/diodes-inc/az1117cr2-3-3trg1/ldo-dc-dc-conv-3-3v-0-8a-sot-89/dp/3942513"
+		(property "ComponentLink2URL" "https://ro.farnell.com/diodes-inc/az1117cr-3-3trg1/ldo-fixed-3-3v-0-8a-20-to-125deg/dp/3483076"
 			(at 213.36 104.14 0)
 			(effects
 				(font
@@ -2661,6 +2775,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AZ1117CR2-3.3TRG1"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 213.36 104.14 0)
 			(effects
 				(font
@@ -2681,6 +2804,94 @@
 			(project ""
 				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Normal")
+		(at 151.13 91.44 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "435f79db-bca7-4074-be3b-9c6d7464fdb6")
+		(property "Reference" "F2"
+			(at 151.13 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse_5x20mm_800mA"
+			(at 151.384 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2842926.pdf"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 200mil"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://ro.farnell.com/multicomp-pro/mp000851/fuse-cartridge-time-delay-0-8a/dp/3220873"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MP000851"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c5b733d3-d844-4c5a-a928-539beea9cfbc/55c49600-108e-423a-878a-ddd218e994fd"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -2831,6 +3042,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -2936,6 +3156,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -3035,6 +3264,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3123,6 +3361,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MC000827"
+			(at 151.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 151.13 111.76 0)
 			(effects
 				(font
@@ -3417,6 +3664,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "860010275020"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 191.77 107.95 0)
 			(effects
 				(font

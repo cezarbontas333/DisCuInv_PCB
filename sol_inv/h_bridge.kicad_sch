@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "H-Bridge Current Conversion")
-		(date "2025-05-07")
-		(rev "0.3.1")
+		(date "2025-07-29")
+		(rev "0.4")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -6140,6 +6140,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 267.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6230,6 +6239,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCMR08X1001FTL"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -6396,6 +6414,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 113.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6486,6 +6513,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJHP6J124V"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 57.15 25.4 0)
 			(effects
 				(font
@@ -6643,6 +6679,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 39.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -6883,6 +6927,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MR04X1002FTLV"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 113.03 176.53 0)
 			(effects
 				(font
@@ -7180,6 +7233,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7270,6 +7332,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MR04X1002FTLV"
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 118.11 97.79 0)
 			(effects
 				(font
@@ -7501,6 +7572,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 251.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7593,6 +7673,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCP6001T-I/OT"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 35.56 80.01 0)
 			(effects
 				(font
@@ -7699,6 +7788,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCP6001T-I/OT"
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -7866,6 +7964,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8254,6 +8360,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 213.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "2b18ab88-8f06-4a47-9231-de04efae2cc4")
 		)
@@ -8441,6 +8555,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8531,6 +8654,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MR04X1002FTLV"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -8726,6 +8858,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -8830,6 +8971,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -8943,6 +9092,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 24.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9037,6 +9195,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9126,6 +9293,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MR04X1002FTLV"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -9357,6 +9533,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9444,6 +9629,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ3RED2403V"
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 67.31 138.43 0)
 			(effects
 				(font
@@ -9538,6 +9732,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C102K5RECAUTO"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 124.46 130.81 0)
 			(effects
 				(font
@@ -9703,6 +9906,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 266.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9792,6 +10004,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "A785KN476M1JLAS045"
+			(at 266.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 266.7 33.02 0)
 			(effects
 				(font
@@ -9952,6 +10173,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "A785KN476M1JLAS045"
+			(at 267.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 267.97 157.48 0)
 			(effects
 				(font
@@ -10182,6 +10412,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCP6001T-I/OT"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 91.44 170.18 0)
 			(effects
 				(font
@@ -10490,6 +10729,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10713,6 +10961,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRGCQ0603J330R"
+			(at 134.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 134.62 130.81 0)
 			(effects
 				(font
@@ -11040,6 +11297,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "de28a79b-b302-4859-b9f4-8d08b5676801")
 		)
@@ -11157,6 +11422,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CRGCQ0603J330R"
+			(at 134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 134.62 29.21 0)
 			(effects
 				(font
@@ -11455,6 +11729,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11545,6 +11828,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0402C104K4RACTU"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 25.4 161.29 0)
 			(effects
 				(font
@@ -11706,6 +11998,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e3d32489-5265-40fd-9fcb-5f5f0d99fab1")
 		)
@@ -11794,6 +12094,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJHP6J124V"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -11889,6 +12198,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C102K5RECAUTO"
+			(at 124.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -12215,6 +12533,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "82e5828d-dc7d-45e6-a419-b02b3ea29d30")
 		)
@@ -12427,6 +12753,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "IFX007TAUMA1"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 146.05 30.48 0)
 			(effects
 				(font

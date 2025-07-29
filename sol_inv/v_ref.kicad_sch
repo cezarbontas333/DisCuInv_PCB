@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Voltage Reference for ADC")
-		(date "2025-05-01")
-		(rev "0.3")
+		(date "2025-07-29")
+		(rev "0.4")
 		(company "Cezar-Octavian Bontaș")
 	)
 	(lib_symbols
@@ -977,6 +977,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1272,6 +1281,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1364,6 +1382,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MCP6001T-I/OT"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 148.59 101.6 0)
 			(effects
 				(font
