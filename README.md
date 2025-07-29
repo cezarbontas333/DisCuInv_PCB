@@ -1,2 +1,11 @@
 # DisCuInv_PCB
-This contains the related CAD files containing the design for the PCB of DisCuInv, a solar inverter.
+DisCuInv is an inverter project that aims to implement a simpler power conversion strategy. The aim is to be used in solar to grid conduction, but this is only a prototype used in an educational environment to test different plant control algorithms which may be less computational intensive and less complex to implement, like PIDs or RSTs. It contains a KiCAD project, namely schematic and PCB design, that can be used to create Gerber files, BOM and CPL that can be sent to a manufacturer to create the boards. Additionally, a [proof of concept](https://github.com/cezarbontas333/DisCuInv_PID) program is provided in a separate repository that uses a PID to control the power conversion.
+
+## Highlights
+- Features integrated [half-bridge and gate drivers](https://www.infineon.com/cms/en/product/power/motor-control-ics/brushed-dc-motor-control-ics/single-half-bridge-ics/ifx007t/) that can sustain up to 40V DC inputs, but the module designed should use 24V DC.
+- Control is done using Infineon's [PSoC C3M5](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/32-bit-psoc-control-arm-cortex-m33-mcu/psoc-control-c3m/), a modern microcontroller with plenty of features designed for power conversion applications. Pins that are not dedicated to the specific application have been broken out to standard 2.54mm headers for additional expansion modules in testing and prototyping of bonus features.
+- Has an integrated power source for the whole logic section of the board. No other power supplies needed, just a IEC C8 socket to be directly plugged.
+- Contains on-board LEDs and buttons for testing purposes.
+
+## Disclaimers
+This project does not assume any liability or warranty in any state of functioning, including specified or not specified otherwise. The license included covers only the KiCAD project files as described by the schematic and boards design. Other files included as additional resources and dependencies such as component footprints, schematic symbols, datasheets or similar material are subject to their respective owners' licenses and should be treated as such. If any issues appear in this regard, please contact via the platforms issues section or email to the maintainer.
